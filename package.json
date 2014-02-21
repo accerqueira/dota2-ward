@@ -1,0 +1,30 @@
+{
+  "name": "dota2-ward",
+  "version": "0.1.0",
+  "description": "DOTA2 Web API Client for node.js",
+  "keywords": [
+    "dota2",
+    "api"
+  ],
+  "author": {
+    "name": "Andre Cerqueira",
+    "email": "me@andrecerqueira.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/accerqueira/dota2-ward.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/cucumber/bin/cucumber.js"
+  },
+  "dependencies": {
+    "promise": "~3.2.0",
+    "request": "~2.30.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.0",
+    "cucumber": "^0.3.3"
+  }
+}
