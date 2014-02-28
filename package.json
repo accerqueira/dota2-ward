@@ -1,9 +1,11 @@
 {
   "name": "dota2-ward",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "DOTA2 Web API Client for node.js",
   "keywords": [
-    "dota2",
+    "game",
+    "valve",
+    "dota",
     "api"
   ],
   "author": {
@@ -17,7 +19,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/cucumber/bin/cucumber.js"
+    "test": "node node_modules/cucumber/bin/cucumber.js -f pretty"
   },
   "dependencies": {
     "promise": "~3.2.0",
