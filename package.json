@@ -1,6 +1,6 @@
 {
   "name": "dota2-ward",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "DOTA2 Web API Client for node.js",
   "keywords": [
     "game",
@@ -23,7 +23,8 @@
   },
   "dependencies": {
     "promise": "~3.2.0",
-    "request": "~2.30.0"
+    "request": "~2.30.0",
+    "object-expression": "^0.1.1"
   },
   "devDependencies": {
     "chai": "^1.9.0",

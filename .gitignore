@@ -57,4 +57,4 @@ build
 
 node_modules
 
-features/config.json
+config.json

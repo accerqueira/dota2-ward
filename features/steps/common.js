@@ -2,7 +2,7 @@ module.exports = function() {
     var chai = require('chai');
     var expect = chai.expect;
 
-    var config = require('../config.json');
+    var config = require('../../config.json');
     var dota2ward = require('../../');
     var dota2types = {
         'MatchDetails': dota2ward.MatchDetails,
