@@ -1,6 +1,6 @@
 {
   "name": "dota2-ward",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "DOTA2 Web API Client for node.js",
   "keywords": [
     "game",
@@ -22,12 +22,13 @@
     "test": "node node_modules/cucumber/bin/cucumber.js -f pretty"
   },
   "dependencies": {
-    "promise": "~3.2.0",
-    "request": "~2.30.0",
-    "object-expression": "^0.1.1"
+    "promise": "^4.0.0",
+    "request": "^2.34.0",
+    "object-expression": "^0.1.1",
+    "method-invoker": "^0.3.0"
   },
   "devDependencies": {
     "chai": "^1.9.0",
-    "cucumber": "^0.3.3"
+    "cucumber": "^0.4.0"
   }
 }

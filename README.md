@@ -34,6 +34,11 @@ client.getMatchHistoryBySequenceNum(filter).forEach(function(match) {
 
 Creates and retuns a new dota2ward.
 
+### dota2ward#setAPIPolicy(policy)
+
+Set a decorator function to control the invocation of DOTA2 WebAPI.
+You can use [method-invoker](https://github.com/accerqueira/method-invoker) to build the desired decorator.
+
 ### dota2ward#getMatchDetails(matchId)
 
 Returns a promise of MatchDetails for the requested matchId.
